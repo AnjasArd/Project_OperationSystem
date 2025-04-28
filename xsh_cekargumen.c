@@ -1,4 +1,4 @@
-/* xsh_mycmd.c - xsh_mycmd */
+/* xsh_cekargumen.c - xsh_cekargumen */
 
 #include <xinu.h>
 #include <stdio.h>
@@ -7,7 +7,7 @@
 /* deklarasi nama fungsi */
 static void printMemUse(void);
 
-shellcmd xsh_mycmd(int nargs, char *args[]) {
+shellcmd xsh_cekargumen(int nargs, char *args[]) {
 
     /* For argument '--help', emit help about the 'ping' command */
     // mycmd --help
