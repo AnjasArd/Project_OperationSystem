@@ -39,6 +39,7 @@ shellcmd xsh_cekargumen(int nargs, char *args[]) {
 /*------------------------------------------------------------------------
  * printMemUse - Print statistics about memory use
  *------------------------------------------------------------------------
- */static void printMemUse(void){
+ */
+static void printMemUse(void){
     printf("Penggunaan Memori Sebesar xxxx\n");
 }
